@@ -1,0 +1,1 @@
+web: java -jar target/produtos-0.0.1-SNAPSHOT.jar -Dspring.datasource.url=${DATASOURCE_URL} -Dspring.datasource.username=${DATASOURCE_USERNAME} -Dspring.datasource.password=${DATASOURCE_PASSWORD} -Dserver.port=${PORT}
