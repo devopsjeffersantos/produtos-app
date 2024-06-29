@@ -37,3 +37,11 @@ spring:
 logging:
     level:
         org.springframework.security: TRACE
+
+
+sonar:
+   projectKey: produtos-app
+   projectName: produtos-app
+   host:
+     url: http://localhost:9090
+   token: sqp_5881251bdc925f4b0661bc850e7ab9402adfb403
